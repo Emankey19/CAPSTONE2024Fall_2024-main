@@ -15,6 +15,9 @@ This is my capstone project, an e-commerce website built using HTML, CSS, and Bo
 
 - Checkout Page (checkout.html): Displays items added to the cart in a table format with quantity and pricing and at the bottom, the chekout form for users to input their shipping and payment information.
 
+## Logo 
+[I created the logo using the free resources on Canva.com](style/logo2.png)
+
 ## Acknowledgements
 
  - [Bootstrap for CSS and some HTML] (https://getbootstrap.com/)
@@ -26,6 +29,7 @@ This is my capstone project, an e-commerce website built using HTML, CSS, and Bo
 ## HTML validator check 
 
 ![Screenshot image for validator check](screenshot/validatorcheck.png) 
+I made sure all the file passed the Validator check, Iused one screenshot to avoid repitition!
 
 ## Challenges
 Styling with CSS was somewhat challenging but I leanred a lot of things.
