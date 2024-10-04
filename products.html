@@ -8,13 +8,42 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index1.html">
+                <img src="style/logo2.png" alt="Party Treats & Cake Logo" width="150" height="100" class="d-inline-block align-top">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Check-out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container mt-5">
         <h2>Our Products</h2>
         <div class="row">
-            <!-- First Product -->
+            
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/regular-cake.jpeg.webp" class="card-img-top" alt="Delicious Cake" width="300" height="200">
+                    <img src="style/regular-cake.jpeg.webp" class="card-img-top img-fluid" alt="Delicious Cake">
                     <div class="card-body">
                         <h5 class="card-title">Delicious Cake</h5>
                         <p class="card-text">A tasty cake for any occasion.</p>
@@ -22,10 +51,10 @@
                     </div>
                 </div>
             </div>
-            <!-- Second Product -->
+           
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/chocolate-cake.jpg" class="card-img-top" alt="Chocolate Delight" width="300" height="200">
+                    <img src="style/chocolate-cake.jpg" class="card-img-top img-fluid" alt="Chocolate Delight">
                     <div class="card-body">
                         <h5 class="card-title">Chocolate Delight</h5>
                         <p class="card-text">Rich chocolate cake perfect for chocolate lovers.</p>
@@ -33,10 +62,10 @@
                     </div>
                 </div>
             </div>
-            <!-- Third Product -->
+            
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/cupcakes.jpg" class="card-img-top" alt="Cupcake Variety" width="300" height="200">
+                    <img src="style/cupcakes.jpg" class="card-img-top img-fluid" alt="Cupcake Variety">
                     <div class="card-body">
                         <h5 class="card-title">Cupcake Variety</h5>
                         <p class="card-text">Assorted cupcakes in various flavors.</p>
@@ -47,10 +76,10 @@
         </div>
         
         <div class="row">
-            <!-- Fourth Product -->
+            
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/cookies.webp" class="card-img-top" alt="Assorted Cookies" width="300" height="200">
+                    <img src="style/cookies.webp" class="card-img-top img-fluid" alt="Assorted Cookies">
                     <div class="card-body">
                         <h5 class="card-title">Assorted Cookies</h5>
                         <p class="card-text">A variety of freshly baked cookies.</p>
@@ -58,10 +87,10 @@
                     </div>
                 </div>
             </div>
-            <!-- Fifth Product -->
+            
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/donuts.jpg" class="card-img-top" alt="Glazed Donuts" width="300" height="200">
+                    <img src="style/donuts.jpg" class="card-img-top img-fluid" alt="Glazed Donuts">
                     <div class="card-body">
                         <h5 class="card-title">Glazed Donuts</h5>
                         <p class="card-text">Delicious glazed donuts for any time of the day.</p>
@@ -69,10 +98,10 @@
                     </div>
                 </div>
             </div>
-            <!-- Sixth Product -->
+            
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="style/fruit-pie.jpg" class="card-img-top" alt="Fruit Pie" width="300" height="200">
+                    <img src="style/fruit-pie.jpg" class="card-img-top img-fluid" alt="Fruit Pie">
                     <div class="card-body">
                         <h5 class="card-title">Fruit Pie</h5>
                         <p class="card-text">A fresh fruit pie with a crispy crust.</p>
@@ -87,7 +116,7 @@
     <script>
         function addToCart(product) {
             alert(product + " has been added to your cart!");
-            // Here you can also implement further functionality to manage cart items.
+
         }
     </script>
 </body>
