@@ -32,6 +32,17 @@ body {
     font-weight: 700; 
 }
 
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh; /* Make the images full height of the viewport */
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
 .homepage-container {
     height: 100vh; 
     display: flex;
